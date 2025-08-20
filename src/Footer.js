@@ -1,9 +1,13 @@
+import './Footer.css'
+
 function Footer()
 {
-    return
-    (
+    const currentYear = new Date().getFullYear();
+    return(
         <footer>
-            <p>Copyright - 2025</p>
+            <p> &copy; Copyright - {currentYear}</p>
         </footer>
     )
 }
+
+export default Footer;

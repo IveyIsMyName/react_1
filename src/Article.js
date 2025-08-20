@@ -1,6 +1,7 @@
+import './Article.css';
+
 function Article() {
-    return
-    (
+    return(
         <article>
             <h2>
                 Современные десктопные процессоры архитектуры x86
@@ -16,3 +17,5 @@ function Article() {
         </article>
     )
 }
+
+export default Article
