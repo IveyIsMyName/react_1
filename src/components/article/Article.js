@@ -14,6 +14,9 @@ function Article() {
             <p>
                 <em>Первая</em> — это те, кто вдруг обнаружил, что ему действительно интересно узнать, как работает современный x86-процессор. Для них мы попытались сосредоточить в рамках статьи максимальное количество полезных сведений, которые позволяют получить более-менее полное представление об этом процессе, даже не имея до этого (почти) никаких специальных знаний: здесь объясняется значение основных терминов, устройство современных CPU, принципы взаимодействия различных их составляющих между собой, а также процессора с компьютерной системой в целом.
             </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse veritatis quisquam consequatur? Dolor animi rem excepturi at repellendus. Similique porro facilis, officiis architecto illum modi repudiandae asperiores provident corrupti eveniet.</p>
+            
+
         </article>
     )
 }

@@ -1,4 +1,4 @@
-import logo from './logo.svg' //Scalable Vector Graphics
+import logo from '../../logo.svg' //Scalable Vector Graphics
 
 function Header() {
     return(
