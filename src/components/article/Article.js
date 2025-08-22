@@ -4,7 +4,7 @@ function Article(props) {
     let {title, content} = props; //деструктуризация
     return(
         <article>
-            <h1 style={{color:"red", fontSize:"64px"}}>{title}</h1>
+            <h1 style={{color:"red", fontSize:"32px", margin:"10px 50px 25px 50px"}}>{title}</h1>
             {content}
             {/* <h2>
                 Современные десктопные процессоры архитектуры x86
