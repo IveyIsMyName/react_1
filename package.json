@@ -1,8 +1,8 @@
 {
   "name": "react_1",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "https://iveyismyname.github.io/react_1/",
+  "private": true,
+  "homepage": "https://iveyismyname.github.io/react_1",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.7.0",
