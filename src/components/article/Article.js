@@ -8,16 +8,16 @@ function Article(props) {
     return (
         <article>
 
-            <div className='app'>
+            <div className='profiles'>
                 {
 
                     Object.keys(db).map(elem => {
                         return(
                             <div className='card' key={elem}>
                                 <img src={db[elem].photo} alt="Photo" />
-                                <div className='name'>{db[elem].name} {db[elem].surname}</div>
-                                <div className='gender'><img src={db[elem].pol === 'male' ? male : female} alt="Gender" /></div>
-                                <div className='age'>{db[elem].age}</div>
+                                <div className='name'>Name: {db[elem].name} {db[elem].surname}</div>
+                                <div className='gender'>Gender: <img src={db[elem].pol === 'male' ? male : female} alt="Gender" /></div>
+                                <div className='age'>Age: {db[elem].age}</div>
                             </div>
                         )    
                     })

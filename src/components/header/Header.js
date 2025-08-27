@@ -5,7 +5,7 @@ function Header() {
     return(
         <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
-            <h1>{title}</h1>
+            
             <h2>JSON - JavaScript Object Notation</h2>
             {/* <p>
                 Edit <code>src/App.js</code> and save to reload.
